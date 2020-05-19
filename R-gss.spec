@@ -4,7 +4,7 @@
 #
 Name     : R-gss
 Version  : 2.2.1
-Release  : 23
+Release  : 24
 URL      : https://cran.r-project.org/src/contrib/gss_2.2-1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/gss_2.2-1.tar.gz
 Summary  : General Smoothing Splines
@@ -33,10 +33,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1589911450
+export SOURCE_DATE_EPOCH=1589913023
 
 %install
-export SOURCE_DATE_EPOCH=1589911450
+export SOURCE_DATE_EPOCH=1589913023
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
