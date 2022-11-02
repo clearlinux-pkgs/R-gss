@@ -4,7 +4,7 @@
 #
 Name     : R-gss
 Version  : 2.2.3
-Release  : 43
+Release  : 44
 URL      : https://cran.r-project.org/src/contrib/gss_2.2-3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/gss_2.2-3.tar.gz
 Summary  : General Smoothing Splines
